@@ -71,17 +71,21 @@
     border-collapse: collapse;
     margin-top: 1rem;
   }
-
-  th, td {
-    padding: 10px;
-    border: 1px solid var(--cor-borda);
-    text-align: left;
-    color: var(--cor-tabela-texto);
-  }
   
   thead {
     background-color: var(--cor-tabela-cabecalho);
     color: var(--cor-botao-texto);
+    font-weight: 600;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid var(--cor-borda);
+    text-align: left;
+  }
+
+  td {
+    color: var(--cor-tabela-texto);
   }
   
   button {
