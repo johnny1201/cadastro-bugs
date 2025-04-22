@@ -8,7 +8,7 @@
     --cor-primaria-hover: #1d4ed8;
     --cor-botao-texto: #ffffff;
   
-    --cor-tabela-cabecalho: #1e40af;
+    --cor-tabela-cabecalho: #1f4e79;
     --cor-tabela-texto: #111827;
     --cor-borda: #e5e7eb;
   }
@@ -71,17 +71,17 @@
     border-collapse: collapse;
     margin-top: 1rem;
   }
-  
-  thead {
-    background-color: var(--cor-tabela-cabecalho);
-    color: var(--cor-botao-texto);
-  }
-  
+
   th, td {
     padding: 10px;
     border: 1px solid var(--cor-borda);
     text-align: left;
     color: var(--cor-tabela-texto);
+  }
+  
+  thead {
+    background-color: var(--cor-tabela-cabecalho);
+    color: var(--cor-botao-texto);
   }
   
   button {
