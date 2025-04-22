@@ -1,0 +1,100 @@
+:root {
+    --cor-fundo: #f4f6f9;
+    --cor-container: #ffffff;
+    --cor-sombra: #d1d5db;
+    --cor-titulo: #1f2937;
+  
+    --cor-primaria: #1e3a8a;      /* Azul-marinho */
+    --cor-primaria-hover: #1d4ed8;
+    --cor-botao-texto: #ffffff;
+  
+    --cor-tabela-cabecalho: #1e40af;
+    --cor-tabela-texto: #111827;
+    --cor-borda: #e5e7eb;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: var(--cor-container);
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--cor-sombra);
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--cor-titulo);
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  form input,
+  form select,
+  form button {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  form input,
+  form select {
+    flex: 1 1 200px;
+  }
+  
+  form button {
+    background-color: var(--cor-primaria);
+    color: var(--cor-botao-texto);
+    border: none;
+    cursor: pointer;
+    flex: 1 1 100px;
+  }
+  
+  form button:hover {
+    background-color: var(--cor-primaria-hover);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  thead {
+    background-color: var(--cor-tabela-cabecalho);
+    color: var(--cor-botao-texto);
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid var(--cor-borda);
+    text-align: left;
+    color: var(--cor-tabela-texto);
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: var(--cor-primaria);
+    color: var(--cor-botao-texto);
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: var(--cor-primaria-hover);
+  }
+  
