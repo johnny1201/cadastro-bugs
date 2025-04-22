@@ -1,0 +1,54 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Painel de Bugs - QA Júnior</title>
+  <!--icone da página-->
+  <link rel="icon" href="https://path_to_your_icon/joaninha.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Painel de Bugs 🐞</h1>
+
+    <form id="bugForm">
+      <input type="text" id="titulo" placeholder="Título do bug" required />
+      <input type="text" id="descricao" placeholder="Descrição" required />
+      <select id="prioridade">
+        <option value="Alta">Alta</option>
+        <option value="Média">Média</option>
+        <option value="Baixa">Baixa</option>
+      </select>
+      <select id="status">
+        <option value="Novo">Novo</option>
+        <option value="Em análise">Em análise</option>
+        <option value="Resolvido">Resolvido</option>
+      </select>
+      <button type="submit">Adicionar Bug</button>
+    </form>
+
+    <label for="filtroStatus">Filtrar por status:</label>
+    <select id="filtroStatus">
+      <option value="Todos">Todos</option>
+      <option value="Novo">Novo</option>
+      <option value="Em análise">Em análise</option>
+      <option value="Resolvido">Resolvido</option>
+    </select>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Descrição</th>
+          <th>Prioridade</th>
+          <th>Status</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody id="listaBugs"></tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
