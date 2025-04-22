@@ -37,8 +37,8 @@ Este projeto foi criado como parte da construção do meu portfólio como futuro
 
 Você pode visualizar o painel diretamente no navegador, sem precisar instalar nada!
 
-### 👉 [Acesse a versão online via GitHub Pages](https://johnny1201.github.io/painel-qa/) *(ative nas configurações do repositório caso ainda não esteja ativo)*
+### 👉 [Acesse a versão online via GitHub Pages](https://johnny1201.github.io/cadastro-bugs/) *(ative nas configurações do repositório caso ainda não esteja ativo)*
 
 Ou clone o projeto localmente:
 ```bash
-git clone https://github.com/johnny1201/painel-qa.git
+git clone https://github.com/johnny1201/cadastro-bugs.git
